@@ -133,7 +133,7 @@ function map() {
 
         }
 
-        google.maps.event.addDomListener(window, 'load', map);
+        google.maps.event.addDomListener(window, 'load', initMap);
 
 
     }
